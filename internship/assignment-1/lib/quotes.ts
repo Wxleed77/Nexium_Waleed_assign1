@@ -3,10 +3,11 @@
 export interface Quote {
   text: string;
   author: string;
-  keywords?: string[]; // Add an optional keywords array
+  keywords?: string[];
 }
 
 export const motivationalQuotes: Quote[] = [
+  // Existing quotes (keep these)
   {
     text: "The only way to do great work is to love what you do.",
     author: "Steve Jobs",
@@ -56,5 +57,56 @@ export const motivationalQuotes: Quote[] = [
     text: "The only true wisdom is in knowing you know nothing.",
     author: "Socrates",
     keywords: ["wisdom", "knowledge", "learning", "humility"],
+  },
+  // NEW QUOTES ADDED BELOW THIS LINE FOR HAPPINESS, SADNESS, FEAR, ETC.
+  {
+    text: "Happiness is not something ready-made. It comes from your own actions.",
+    author: "Dalai Lama XIV",
+    keywords: ["happiness", "joy", "actions", "positive"],
+  },
+  {
+    text: "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    author: "William Saroyan",
+    keywords: ["happiness", "self-sufficiency", "contentment"],
+  },
+  {
+    text: "Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness.",
+    author: "Carl Jung",
+    keywords: ["happiness", "sadness", "balance", "life"],
+  },
+  {
+    text: "It's okay to feel sad. It just means you're human.",
+    author: "Unknown",
+    keywords: ["sadness", "emotions", "humanity", "acceptance"],
+  },
+  {
+    text: "Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt.",
+    author: "William Shakespeare",
+    keywords: ["fear", "doubt", "courage", "attempt"],
+  },
+  {
+    text: "The only thing we have to fear is fear itself.",
+    author: "Franklin D. Roosevelt",
+    keywords: ["fear", "courage", "overcoming", "adversity"],
+  },
+  {
+    text: "Challenges are what make life interesting; overcoming them is what makes life meaningful.",
+    author: "Joshua J. Marine",
+    keywords: ["challenges", "meaning", "life", "overcoming"],
+  },
+  {
+    text: "The greater the obstacle, the more glory in overcoming it.",
+    author: "Molière",
+    keywords: ["obstacle", "glory", "overcoming", "challenge"],
+  },
+  {
+    text: "Change your thoughts and you change your world.",
+    author: "Norman Vincent Peale",
+    keywords: ["thoughts", "mindset", "change", "perspective"],
+  },
+  {
+    text: "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    author: "Ralph Waldo Emerson",
+    keywords: ["inner strength", "potential", "self-belief"],
   },
 ];
