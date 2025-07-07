@@ -9,7 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-// import { Label } from "@/components/ui/label"; // Keep this commented as you did
+
 import {
   Form,
   FormControl,
@@ -64,8 +64,14 @@ export default function HomePage() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100"> {/* Added dark mode classes for future */}
-      <h1 className="text-4xl font-extrabold mb-8 text-blue-700 dark:text-blue-400 drop-shadow-lg">
+  //  <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100"> {/* Added dark mode classes for future */}
+    //  <h1 className="text-4xl font-extrabold mb-8 text-blue-700 dark:text-blue-400 drop-shadow-lg">
+      //  Inspiration Hub
+      //</h1>
+
+       <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100">
+      {/* The enhanced H1 tag */}
+      <h1 className="text-5xl md:text-6xl font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 drop-shadow-xl tracking-tight leading-tight text-center animate-fade-in font-playfair-display">
         Inspiration Hub
       </h1>
 
